@@ -1,6 +1,6 @@
 //Maya ASCII 2020 scene
 //Name: test.ma
-//Last modified: Thu, Jan 14, 2021 04:48:40 PM
+//Last modified: Thu, Jan 14, 2021 04:49:26 PM
 //Codeset: 1252
 requires maya "2020";
 currentUnit -l centimeter -a degree -t film;
@@ -9,7 +9,7 @@ fileInfo "product" "Maya 2020";
 fileInfo "version" "2020";
 fileInfo "cutIdentifier" "201911140446-42a737a01c";
 fileInfo "osv" "Microsoft Windows 10 Technical Preview  (Build 19042)\n";
-fileInfo "UUID" "F36390FB-43D2-F806-1213-CF943D92C064";
+fileInfo "UUID" "085B7E76-4C76-AB8B-086A-1887CC570773";
 createNode transform -s -n "persp";
 	rename -uid "A937B774-4E5E-05C7-3554-A6B518AF8599";
 	setAttr ".v" no;
@@ -158,7 +158,6 @@ select -ne :initialParticleSE;
 	setAttr ".ro" yes;
 select -ne :defaultRenderGlobals;
 	addAttr -ci true -h true -sn "dss" -ln "defaultSurfaceShader" -dt "string";
-	setAttr ".ren" -type "string" "arnold";
 	setAttr ".dss" -type "string" "lambert1";
 select -ne :defaultResolution;
 	setAttr ".pa" 1;
