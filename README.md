@@ -19,3 +19,5 @@ Monday it is 23 degrees and sunny
 Tuesday it is 33 degrees and partialy cloudy
 
 Wednesday it is 32 degrees and cloudy
+
+Thursday it is 37 degrees and cloudy
