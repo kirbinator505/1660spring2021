@@ -23,3 +23,5 @@ Wednesday it is 32 degrees and cloudy
 Thursday it is 37 degrees and cloudy
 
 Friday it is 35 degrees and rainy
+
+Monday it is 30 degrees and cloudy
